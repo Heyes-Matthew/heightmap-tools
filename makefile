@@ -7,8 +7,8 @@ OBJ=src/main.o src/image.o src/filter.o
 %.0: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
-heightmap-to-normalmap: $(OBJ)
-	$(CC) -o $@ $^ $(CFLAGS)
+heightmap-tools: $(OBJ)
+	$(CC) -o $@.out $^ $(CFLAGS)
 
 clean:
 	-rm *.o
