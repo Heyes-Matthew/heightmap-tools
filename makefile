@@ -11,4 +11,4 @@ heightmap-tools: $(OBJ)
 	$(CC) -o $@.out $^ $(CFLAGS)
 
 clean:
-	-rm *.o
+	rm src/*.o
