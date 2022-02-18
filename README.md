@@ -1,2 +1,2 @@
-# heightmap-tools
-Command line tool to manipulate heightmaps
+# heightmap-to-normalmap
+ Command line tool to convert height maps to normal maps.
